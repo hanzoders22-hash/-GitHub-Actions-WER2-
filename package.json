@@ -4,7 +4,7 @@
   "description": "A minimal Node.js project for practicing GitHub Actions CI.",
   "main": "index.js",
   "scripts": {
-    "build": "node --check index.js && node --check message.js && node index.js && mkdir -p dist && cp index.js message.js dist/"
+    "build": "node --check index.js && node --check message.js && node index.js && mkdir -p dist && cp index.js message.js dist/",
     "start": "node index.js"
   },
   "keywords": [
