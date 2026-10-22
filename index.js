@@ -1,3 +1,2 @@
-const message = require('./src/message');
 
-console.log(message);
+console.log("Hello world");
