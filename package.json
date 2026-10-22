@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-ci-practice",
+  "version": "1.0.0",
+  "description": "A minimal Node.js project for practicing GitHub Actions CI.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node --check index.js && node --check src/message.js && node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "github-actions",
+    "ci"
+  ],
+  "license": "MIT"
+}
